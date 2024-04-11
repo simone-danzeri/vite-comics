@@ -118,7 +118,7 @@
     background-color: #303030;
 }
 .footer-bottom{
-    padding: 40px 0;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     .btn-container{
