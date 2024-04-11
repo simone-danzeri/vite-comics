@@ -1,11 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppCards from './components/AppCards.vue';
+import AppMainNav from './components/AppMainNav.vue';
 
   export default {
     components: {
       AppHeader,
-      AppCards
+      AppCards,
+      AppMainNav
     }
   }
 </script>
@@ -16,6 +18,7 @@ import AppCards from './components/AppCards.vue';
 
   <main>
     <AppCards></AppCards>
+    <AppMainNav></AppMainNav>
   </main>
 </template>
 
