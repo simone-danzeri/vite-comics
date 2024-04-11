@@ -69,6 +69,8 @@
 
 
 <style scoped lang="scss">
+@use '../style/partials/variables' as *;
+
 .top-footer{
     background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
@@ -101,7 +103,7 @@
             
             a{
                 text-decoration: none;
-                color: #676b70;
+                color: $brand-secondary;
             }
         }
 
@@ -121,7 +123,7 @@
     justify-content: space-between;
     .btn-container{
         button{
-            border: 2px solid #0282f9;
+            border: 2px solid $brand-primary;
             background-color: #303030;
             padding: 14px 18px;
             cursor: pointer;
@@ -137,7 +139,7 @@
         align-items: center;
 
         h4{
-            color: #0282f9;
+            color: $brand-primary;
             padding-right: 12px;
         }
 

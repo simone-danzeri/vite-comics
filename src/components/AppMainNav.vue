@@ -58,8 +58,10 @@
 
 
 <style scoped lang="scss">
+@use '../style/partials/variables' as *;
+
 section{
-    background-color: #0282f9;
+    background-color: $brand-primary;
 }
 .products-container {
     height: 100px;

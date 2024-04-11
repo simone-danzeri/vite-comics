@@ -74,6 +74,8 @@
 
 
 <style scoped lang="scss">
+@use '../style/partials/variables' as *;
+
 header{
     
     img{
@@ -100,14 +102,14 @@ header{
                     padding-right: 0;
                 }
                 .active{
-                    color: #0282f9;
-                    border-bottom: 2px solid #0282f9;
+                    color: $brand-primary;
+                    border-bottom: 2px solid $brand-primary;
                 }
                 
                 a{
                     font-size: 15px;
                     text-decoration: none;
-                    color: #676b70;
+                    color: $brand-secondary;
                 }
             }
         }
