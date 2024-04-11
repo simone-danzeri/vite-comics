@@ -73,7 +73,7 @@
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
 header{
     
     img{
