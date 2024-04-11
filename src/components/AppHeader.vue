@@ -62,8 +62,8 @@
                 </div>
                 <nav>
                     <ul>
-                        <li v-for="eachLink in links">
-                            <a :class="{'active': eachLink.active}" href="#">{{ eachLink.text }}</a>
+                        <li v-for="eachLink,index in links">
+                            <a :class="{'active': eachLink.active}" href="#" @click="eachLink.active = !eachLink.active" >{{ eachLink.text }}</a>
                         </li>
                     </ul>
                 </nav>
@@ -100,7 +100,8 @@ header{
                     padding-right: 0;
                 }
                 .active{
-                    color: blue;
+                    color: #0282f9;
+                    border-bottom: 2px solid #0282f9;
                 }
                 
                 a{
