@@ -75,7 +75,7 @@
 }
 .footer-top {
     margin: auto;
-    padding: 30px 0;
+    padding: 40px 0;
 
     .links-container {
         width: 50%;
@@ -84,6 +84,15 @@
 
         &>div {
             padding: 0 35px;
+
+            &:first-child{
+                padding-left: 0px;
+            }
+
+            &:last-child{
+                padding-left: 0px;
+                margin-top: -94px;
+            }
         }
 
         .links ul li {
