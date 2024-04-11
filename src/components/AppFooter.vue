@@ -9,17 +9,17 @@
                     links: ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']
                 },
                 {
-                    title: "SHOP",
-                    links: ['Shop DC', 'Shop DC Collectibles']
-                },
-                {
                     title: "DC",
                     links: ['Terms Of Use', 'Privacy Policy (New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us']
                 },
                 {
                     title: "SITES",
                     links: ['DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
-                }
+                },
+                {
+                    title: "SHOP",
+                    links: ['Shop DC', 'Shop DC Collectibles']
+                },
             ]
         }
     }
@@ -44,23 +44,46 @@
             </div>
         </div>
     </section>
+    <section class="bottom-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="btn-container">
+                    <button>
+                        <span>SIGN-UP NOW!</span>
+                    </button>
+                </div>
+                <div class="social">
+                    <h4>FOLLOW US</h4>
+                    <div class="images">
+                        <img src="../assets/img/footer-facebook.png" alt="fb logo">
+                        <img src="../assets/img/footer-twitter.png" alt="twitter logo">
+                        <img src="../assets/img/footer-youtube.png" alt="yt logo">
+                        <img src="../assets/img/footer-pinterest.png" alt="pinterest logo">
+                        <img src="../assets/img/footer-periscope.png" alt="perscope logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 
 <style scoped lang="scss">
 .top-footer{
     background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
 }
 .footer-top {
     margin: auto;
     padding: 30px 0;
 
     .links-container {
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
 
         &>div {
-            padding: 0 10px;
+            padding: 0 35px;
         }
 
         .links ul li {
@@ -76,6 +99,41 @@
         .links h3 {
             color: white;
             padding-bottom: 20px;
+        }
+    }
+}
+
+.bottom-footer{
+    background-color: #303030;
+}
+.footer-bottom{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    .btn-container{
+        button{
+            border: 2px solid #0282f9;
+            background-color: #303030;
+            padding: 14px 18px;
+            cursor: pointer;
+
+            span{
+                color: white;
+                font-size: 16px;
+            }
+        }
+    }
+    .social{
+        display: flex;
+        align-items: center;
+
+        h4{
+            color: #0282f9;
+            padding-right: 12px;
+        }
+
+        img{
+            padding: 0 8px;
         }
     }
 }
