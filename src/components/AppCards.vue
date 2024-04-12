@@ -125,6 +125,7 @@ import everySingleCard from './everySingleCard.vue';
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 20px 0;
 }
 .test{
     color: white;
