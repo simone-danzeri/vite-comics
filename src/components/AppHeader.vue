@@ -78,12 +78,17 @@
 
 header{
     
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
     img{
         width: 90px;
         height: 90px;
     }
     .header-container{
-        padding: 20px 0;
+        /* padding: 20px 0; */
         display: flex;
         justify-content: space-between;
         align-content: center;
@@ -96,7 +101,10 @@ header{
             display: flex;
             li{
                 list-style: none;
-                padding: 0 15px;
+                padding: 0px 15px;
+                height: 120px;
+                display: flex;
+                align-items: center;
                 
                 &:last-child{
                     padding-right: 0;

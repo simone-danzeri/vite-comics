@@ -74,10 +74,22 @@
 .top-footer{
     background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
+
+    .container{
+        background-image: url(../assets/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+    }
 }
 .footer-top {
     margin: auto;
     padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 100%;
+    }
 
     .links-container {
         width: 50%;
@@ -93,7 +105,7 @@
 
             &:last-child{
                 padding-left: 0px;
-                margin-top: -94px;
+                margin-top: -98px;
             }
         }
 
