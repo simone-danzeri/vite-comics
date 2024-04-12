@@ -10,7 +10,9 @@
 
 <template>
         <div class="card">
-            <img :src="titleInfo.thumb" alt="">
+            <div class="img-container">
+                <img :src="titleInfo.thumb" alt="">
+            </div>
             <span>{{ titleInfo.series }}</span>
         </div>
 </template>
@@ -24,6 +26,10 @@
     width: calc(100%/6 - 20px);
     padding: 10px;
     margin: 10px;
+
+    .img-container{
+        
+    }
 
     img{
         width: 100%;
