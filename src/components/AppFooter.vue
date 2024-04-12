@@ -105,7 +105,7 @@
 
             &:last-child{
                 padding-left: 0px;
-                margin-top: -98px;
+                margin-top: -75px;
             }
         }
 

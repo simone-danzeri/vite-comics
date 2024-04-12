@@ -1,6 +1,6 @@
 <script>
     export default {
-        
+        name: 'AppJumbotron'
     }
 </script>
 <template>
@@ -25,6 +25,7 @@ section{
         position: absolute;
         top: 95%;
         left: 15%;
+
         h3{
             color: white;
         }
